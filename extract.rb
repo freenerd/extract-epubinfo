@@ -1,3 +1,5 @@
+require 'epubinfo'
+
 class Writer
   def initialize(directory_name, cover_directory_name)
     @cover_directory_name = cover_directory_name
@@ -48,9 +50,6 @@ class Writer
 end
 
 class ExtractEPUBInfo
-  $LOAD_PATH << '~/Code/readmill/epubinfo/lib'
-  require 'epubinfo.rb'
-
   EPUB_PATH = './epubs'
   OUTPUT_PATH = './output'
 
