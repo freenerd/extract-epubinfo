@@ -1,7 +1,7 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    epubinfo (0.3.6)
+    epubinfo (0.4.0)
       nokogiri (>= 1.4.2)
       rubyzip (~> 0.9.9)
     nokogiri (1.5.5)
@@ -11,4 +11,4 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  epubinfo
+  epubinfo (> 0.3.6)
